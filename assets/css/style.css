@@ -1,12 +1,56 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
 * {
     padding: 0;
     margin: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 body {
     background-color: #f2f2f2;
     font-family: "Segoe UI", sans-serif;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+}
+
+.centered {
+    text-align: center;
+}
+
+.navbar-inverse {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+    float: none !important;
+    padding-top: 10px;
+}
+
+.navbar-brand span {
+    font-size: 14px;
+}
+
+.navbar-brand .number {
+    font-size: 22px;
+}
+
+.navbar-right .last-li {
+    background-color: #ac2925;
+}
+
+.navbar-right .last-li a i {
+    color: #ffffff;
+}
+
+.navbar-default {
+    padding: 17px 0 0 0;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.nav-two {
+    font-weight: lighter;
+    font-size: 18px;
 }
