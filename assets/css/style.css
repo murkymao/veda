@@ -60,26 +60,41 @@ body {
 }
 
 
-.services .col-lg-3 {
+.services .col-lg-3, .col-md-3 {
     padding:55px 30px;
     background-color: #ffffff;
-    margin: 20px 0;
+    margin: 20px 0 0 10px;
+    width: 24%;
+
 }
 
 .services .col-lg-3:hover {
     border-bottom: 2px solid #bc0f0f;
 }
 
+#myCarousel {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+
 .left-arrow {
     position: absolute;
-    top:35%;
-    left: 0;
+    top:50%;
+    left: 20px;
+    transform: translate(-50%, -50%);
 }
 
 .right-arrow {
     position: absolute;
-    top: 35%;
-    right: 0;
+    top: 50%;
+    right: -20px;
+    transform: translate(-50%, -50%);
 }
 
 .love {
