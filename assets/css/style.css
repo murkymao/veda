@@ -1,5 +1,11 @@
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
+@media (min-width: 768px) {
+    .navbar-collapse {
+        padding-left: 0 !important;
+    }
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -158,7 +164,7 @@ body {
 }
 
 .footer-second i {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .grey-txt ul {
