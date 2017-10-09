@@ -14,6 +14,10 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.centered {
+    text-align: center;
+}
+
 .col-sm-6 {
     margin-top: 20px;
 }
@@ -66,12 +70,11 @@ body {
 .services .centered {
     padding: 55px 30px;
     background-color: #ffffff;
-    margin: 20px 0 0 10px;
-    width: 23%;
-
+    border: 5px solid #F8F8F8;
+    min-height: 300px;
 }
 
-.services .col-lg-3:hover {
+.services .centered:hover {
     border-bottom: 2px solid #bc0f0f;
 }
 
@@ -110,7 +113,7 @@ body {
 }
 
 .text-bkg {
-    margin: 177px 0 0 10px;
+    padding: 177px 0 0 10px;
 }
 
 .pre-footer h4 {
@@ -152,6 +155,22 @@ body {
 .footer-second {
     background-color: #3a3a3a;
     min-height: 177px;
+}
+
+.footer-second i {
+    margin-right: 15px;
+}
+
+.grey-txt ul {
+    list-style-type: none;
+}
+
+.grey-txt ul li {
+    line-height: 200%;
+}
+
+.grey-txt ul li a {
+    color: #b0b0b0;
 }
 
 
