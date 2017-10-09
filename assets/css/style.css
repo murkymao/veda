@@ -18,6 +18,10 @@ body {
     text-align: center !important;
 }
 
+.col-sm-6 {
+    margin-top: 20px;
+}
+
 .navbar-inverse {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -57,6 +61,10 @@ body {
 
 .nav-two li a:hover {
     border-bottom: 2px solid #bc0f0f;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    min-height: 230px;
 }
 
 .services .centered {
@@ -106,7 +114,7 @@ body {
 }
 
 .text-bkg {
-    margin: 195px 0 0 10px;
+    margin: 177px 0 0 10px;
 }
 
 
@@ -125,10 +133,17 @@ body {
     font-size: 15px;
 }
 
-.footer-nav {
-    display: flex !important;
-    justify-content: space-between !important;
-    font-size: 18px;
+.footer-first {
+    background-color: #3f3f3f;
+}
+
+.footer-first a {
+    color: #ffffff;
+}
+
+.footer-second {
+    background-color: #3a3a3a;
+    min-height: 177px;
 }
 
 
