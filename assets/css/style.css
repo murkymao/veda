@@ -14,10 +14,6 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-.centered {
-    text-align: center !important;
-}
-
 .col-sm-6 {
     margin-top: 20px;
 }
@@ -117,7 +113,6 @@ body {
     margin: 177px 0 0 10px;
 }
 
-
 .pre-footer h4 {
     color: #333333;
     font-size: 20px;
@@ -133,12 +128,25 @@ body {
     font-size: 15px;
 }
 
+.pre-footer a {
+    color: #bb971a;
+}
+
 .footer-first {
     background-color: #3f3f3f;
 }
 
+.nav-bottom {
+    margin: 23px 0;
+}
+
 .footer-first a {
     color: #ffffff;
+    font-size: 18px;
+}
+
+.footer-first a:hover {
+    color: #BB971A;
 }
 
 .footer-second {
