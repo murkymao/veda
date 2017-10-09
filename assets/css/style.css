@@ -59,9 +59,8 @@ body {
     border-bottom: 2px solid #bc0f0f;
 }
 
-
 .services .centered {
-    padding:55px 30px;
+    padding: 55px 30px;
     background-color: #ffffff;
     margin: 20px 0 0 10px;
     width: 24%;
@@ -72,20 +71,9 @@ body {
     border-bottom: 2px solid #bc0f0f;
 }
 
-#myCarousel {
-    position: relative;
-}
-
-.carousel-caption {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-
-
 .left-arrow {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 20px;
     transform: translate(-50%, -50%);
 }
@@ -102,48 +90,13 @@ body {
     height: 100%;
     background-position: left top;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
+    background-size: cover;
 }
 
 .bkg {
     color: #ffffff;
 }
 
-.bkg-lucky, .bkg-life, .bkg-consultation, .bkg-lucky-number, .tree, .fox {
-    position: relative;
-}
-
-.lucky-text p, .life-text p, .consultation-text p, .number-text p {
-    color: #cccccc;
-}
-
-.lucky-text p span, .life-text p span, .consultation-text p span, .number-text p span  {
-    background-color: #BC0F0F;
-}
-
-.lucky-text {
-    position: absolute;
-    top: 210px;
-    left: 40px;
-}
-
-.life-text {
-    position: absolute;
-    top: 190px;
-    left: 40px;
-}
-
-.consultation-text {
-    position: absolute;
-    top: 200px;
-    left: 40px;
-}
-
-.number-text {
-    position: absolute;
-    top: 215px;
-    left: 40px;
-}
 
 .pre-footer h4 {
     color: #333333;
@@ -166,19 +119,4 @@ body {
     font-size: 18px;
 }
 
-.tree-text {
-     position: absolute;
-     top: 40px;
-     left: 40px;
-     background-color: #bc0f0f;
-
-}
-
-.fox-text {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    background-color: #bc0f0f;
-
-}
 
