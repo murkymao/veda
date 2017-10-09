@@ -63,7 +63,7 @@ body {
     padding: 55px 30px;
     background-color: #ffffff;
     margin: 20px 0 0 10px;
-    width: 24%;
+    width: 23%;
 
 }
 
@@ -103,6 +103,10 @@ body {
 
 .bkg small {
     color: #b0b0b0;
+}
+
+.text-bkg {
+    margin: 195px 0 0 10px;
 }
 
 
