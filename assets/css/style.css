@@ -126,6 +126,15 @@ body {
     padding: 177px 0 0 10px;
 }
 
+.text-bkg a {
+    text-decoration: none !important;
+    color: #ffffff;
+}
+
+.text-bkg a:hover {
+    color: #BB971A;
+}
+
 .pre-footer h4 {
     color: #333333;
     font-size: 20px;
