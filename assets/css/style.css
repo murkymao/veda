@@ -69,6 +69,10 @@ body {
     border-bottom: 2px solid #bc0f0f;
 }
 
+.carousel-caption {
+    text-align: left !important;
+}
+
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     min-height: 230px;
 }
