@@ -88,6 +88,10 @@ body {
     border-bottom: 2px solid #bc0f0f;
 }
 
+.services .love {
+    border-bottom: 2px solid #bc0f0f;
+}
+
 .left-arrow {
     position: absolute;
     top: 50%;
