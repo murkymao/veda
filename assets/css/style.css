@@ -28,9 +28,38 @@ body {
     margin-top: 20px;
 }
 
-.navbar-inverse {
-    padding-top: 15px;
-    padding-bottom: 15px;
+.top {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    font-weight: lighter;
+    padding: 20px 0;
+}
+
+.top .phone-number {
+    font-size: 22px;
+}
+
+.top .phone-number span {
+    font-size: 14px;
+}
+
+input[type=text] {
+    width: 50px;
+    box-sizing: border-box;
+    border: 2px solid #BC0F0F;
+    font-size: 16px;
+    background-size: contain;
+    background-color: #BC0F0F;
+    background-image: url('../img/25-search.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 60%;
 }
 
 .navbar-brand {
@@ -38,21 +67,21 @@ body {
     padding-top: 10px;
 }
 
-.navbar-brand span {
-    font-size: 14px;
-}
+/*.navbar-brand span {*/
+    /*font-size: 14px;*/
+/*}*/
 
-.navbar-brand .number {
-    font-size: 22px;
-}
+/*.navbar-brand .number {*/
+    /*font-size: 22px;*/
+/*}*/
 
-.navbar-right .last-li {
-    background-color: #bc0f0f;
-}
+/*.navbar-right .last-li {*/
+    /*background-color: #bc0f0f;*/
+/*}*/
 
-.navbar-right .last-li a i {
-    color: #ffffff;
-}
+/*.navbar-right .last-li a i {*/
+    /*color: #ffffff;*/
+/*}*/
 
 .navbar-default {
     padding: 17px 0 10px 0;
