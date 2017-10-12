@@ -67,22 +67,6 @@ input[type=text]:focus {
     padding-top: 10px;
 }
 
-/*.navbar-brand span {*/
-    /*font-size: 14px;*/
-/*}*/
-
-/*.navbar-brand .number {*/
-    /*font-size: 22px;*/
-/*}*/
-
-/*.navbar-right .last-li {*/
-    /*background-color: #bc0f0f;*/
-/*}*/
-
-/*.navbar-right .last-li a i {*/
-    /*color: #ffffff;*/
-/*}*/
-
 .navbar-default {
     padding: 17px 0 10px 0;
     background-color: #f8f8f8 !important;
