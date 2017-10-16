@@ -45,21 +45,26 @@ body {
 
 input[type=text] {
     width: 50px;
-    box-sizing: border-box;
     border: 2px solid #BC0F0F;
     font-size: 16px;
+    padding: 12px 20px 12px 40px;
+}
+
+.header-search-animaiton {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.header-search-icon {
     background-size: contain;
     background-color: #BC0F0F;
     background-image: url('../img/25-search.png');
     background-position: center;
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
 }
 
 input[type=text]:focus {
-    width: 60%;
+    width: 180px;
 }
 
 .navbar-brand {
