@@ -254,11 +254,11 @@ input[type=text]:focus {
 }
 
 .expert-content {
-    padding: 10px;
+    padding: 15px;
 }
 
 .btn.btn-expert {
-    margin-left: 10px;
+    margin-left: 15px;
     background-color: #3a3a3a;
     color: #ffffff;
     border-radius: 0;
@@ -267,5 +267,11 @@ input[type=text]:focus {
 .btn.btn-expert:hover {
     background-color: #BC0F0F;
     color: #ffffff;
+}
+
+.row.row-expert.row-expert-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
