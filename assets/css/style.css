@@ -281,14 +281,30 @@ input[type=text]:focus {
     margin: 0;
 }
 
+.row.divination a {
+    font-size: 16px;
+    color: #BC0F0F;
+
+}
+
 .divination-column {
     background-color: #ffffff;
 }
 
-.divination-column p {
+.divination-column-bottom p {
     font-size: 16px;
 }
 
 .divination-text {
     color: #000000;
 }
+
+.pagination.pagination-divination li a {
+    color: #000000;
+}
+
+.pagination.pagination-divination li a:hover {
+    color: #ffffff;
+    background-color: #BC0F0F;
+}
+
