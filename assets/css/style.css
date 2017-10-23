@@ -43,6 +43,10 @@ body {
     font-size: 14px;
 }
 
+.registration a{
+    color: #ffffff;
+}
+
 input[type=text] {
     width: 50px;
     border: 2px solid #BC0F0F;
@@ -65,6 +69,9 @@ input[type=text] {
 
 input[type=text]:focus {
     width: 180px;
+    background-position: right;
+    background-repeat: no-repeat;
+
 }
 
 .navbar-brand {
@@ -85,6 +92,17 @@ input[type=text]:focus {
 
 .nav-two li a:hover {
     border-bottom: 2px solid #bc0f0f;
+
+}
+
+.nav-two li a:active {
+    border-bottom: 2px solid #bc0f0f;
+
+}
+
+.nav-two li a:visited {
+    border-bottom: 2px solid #bc0f0f;
+
 }
 
 .carousel-caption {
