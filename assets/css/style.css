@@ -275,3 +275,20 @@ input[type=text]:focus {
     margin-bottom: 20px;
 }
 
+/*DIVINATION*/
+
+.row.divination {
+    margin: 0;
+}
+
+.divination-column {
+    background-color: #ffffff;
+}
+
+.divination-column p {
+    font-size: 16px;
+}
+
+.divination-text {
+    color: #000000;
+}
