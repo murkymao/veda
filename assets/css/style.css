@@ -315,8 +315,9 @@ input[type=text]:focus {
 /*RITUALS*/
 
 
-.rituals {
+div.container.rituals {
     background-color: #ffffff;
+    padding: 35px;
 }
 
 .rituals-main-text {
