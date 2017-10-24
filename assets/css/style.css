@@ -260,8 +260,12 @@ input[type=text]:focus {
 .btn.btn-expert {
     margin-left: 15px;
     background-color: #3a3a3a;
-    color: #ffffff;
     border-radius: 0;
+}
+
+.btn.btn-expert a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .btn.btn-expert:hover {
