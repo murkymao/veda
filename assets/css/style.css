@@ -365,3 +365,74 @@ div.container.rituals {
 .rituals-points ul li span {
     color: #333;
 }
+
+
+/*EXPERT_INFO*/
+
+.expert-info {
+    background-color: #ffffff;
+}
+
+.expert-info-image img {
+    margin-top: 106px;
+}
+
+.expert-info-title {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.expert-info-subtitle {
+    font-size: 30px;
+    color: #5e5e5e;
+}
+
+.expert-info-content blockquote{
+    font-size: 22px;
+    border-left: 3px solid #BC0F0F;
+}
+
+.expert-info-chat {
+    font-size: 30px;
+    color: #BC0F0F;
+}
+
+.expert-info-button {
+    background-color: #BC0F0F;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 40px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.expert-info-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.expert-info-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.expert-info-button:hover span {
+    padding-right: 25px;
+}
+
+.expert-info-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
